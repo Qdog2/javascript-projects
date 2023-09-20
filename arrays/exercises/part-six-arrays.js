@@ -38,3 +38,4 @@ table2.push(element5);
 table.push(table2);
 
 console.log(table);
+
