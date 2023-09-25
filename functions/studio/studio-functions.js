@@ -3,15 +3,39 @@
 // Part One: Reverse Characters
 
 // 1. Define the function as reverseCharacters. Give it one parameter, which will be the string to reverse.
+function reverseCharacters(characters) {
+    for (let i = 0; i < characters.length; i++) {
+        console.log(characters[i]);
+    }
+}
 // 2. Within the function, split the string into an array, then reverse the array.
+function reverseCharacters(characters) {
+    for (let i = 0; i < characters.length; i++)
+}
+
+console.log(split.characters[i])
+console.log(reverse.characters[i]);
 // 3. Use join to create the reversed string and return that string from the function.
+function reverseCharacters(characters) {
+    for (let i = 0; i < characters.length; i++)
+}
+
+console.log(split.characters[i])
+console.log(reverse.characters[i])
+console.log(join.characters[i])
 // 4. Below the function, define and initialize a variable to hold a string.
+let myVariableName = ("A, B, C, D");
 // 5. Use console.log(reverseCharacters(myVariableName)); to call the function and verify that it correctly reverses the characters in the string.
+console.log(reverseCharacters(myVariableName));
 // 6. Optional: Use method chaining to reduce the lines of code within the function.
 
 // Part Two: Reverse Digits
 
 // 1. Add an if statement to reverseCharacters to check the typeof the parameter.
+if (reverseCharacters = String) {
+    console.log("Variable is a string")
+    return.reverseCharacters
+} 
 // 2. If typeof is ‘string’, return the reversed string as before.
 // 3. If typeof is ’number’, convert the parameter to a string, reverse the characters, then convert it back into a number.
 // 4. Return the reversed number.
@@ -20,19 +44,30 @@
 // Part Three: Complete Reversal
 
 // 1. Define and initialize an empty array.
+newArray = [];
 // 2. Loop through the old array.
+for (let i = 0; i < characters.length; i++) {
+    for (let j = 0; j < newArray.length; j++)
+    console.log(newArray[i][j]);
+}
 // 3. For each element in the old array, call reverseCharacters to flip the characters or digits.
+function reverseCharacters(newArray);
 // 4. Add the reversed string (or number) to the array defined in part ‘a’.
+let finalReversedArray = [characters + newArray];
 // 5. Return the final, reversed array.
+console.log(finalReversedArray);
 // 6. Be sure to print the results from each test case in order to verify your code.
-
 let arrayTest1 = ['apple', 'potato', 'Capitalized Words'];
 let arrayTest2 = [123, 8897, 42, 1168, 8675309];
 let arrayTest3 = ['hello', 'world', 123, 'orange'];
 
+function reverseCharacters(arrayTest1);
+function reverseCharacters(arrayTest2);
+function reverseCharacters(arrayTest3);
 // Bonus Missions
 
 // 1. Have a clear, descriptive name like funPhrase.
+
 // 2. Retrieve only the last character from strings with lengths of 3 or less.
 // 3. Retrieve only the first 3 characters from strings with lengths larger than 3.
 // 4. Use a template literal to return the phrase We put the '___' in '___'. Fill the first blank with the modified string, and fill the second blank with the original string.
