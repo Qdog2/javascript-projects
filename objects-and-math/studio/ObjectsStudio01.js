@@ -90,3 +90,4 @@ let animals = [candidateA,candidateB,candidateC,candidateD,candidateE,candidateF
 
 
 console.log(`${buildCrew(arrID, animals)[0]}, ${buildCrew(arrID, animals)[0]}, ${buildCrew(arrID, animals)[0]} are going to space!`)
+

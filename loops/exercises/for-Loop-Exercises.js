@@ -52,16 +52,35 @@ for (let i = 0; i < lecture.length; i++) {
   }
 
   for (let i = 0; i < otherArr.length; i++) {
-    if (otherArr[i] % 2 !== 0)
+    if (otherArr[i] % 2 !==  0)
     odds.push(otherArr[i])
     console.log(odds);
   }
 
   const input = require('readline-sync');
-  let fuelLevel = 0, numAstronauts = 0, altitude = 0;
+  let fuelLevel = 0
+  let numAstronauts = 0
+  let altitude = 0
 
   while (fuelLevel <= 5000 || fuelLevel > 30000 || isNaN(fuelLevel)) {
     fuelLevel = input.question("Enter the starting fuel level: ");
   }
+     while (numAstronauts > 7 || numAstronauts < 1) {
+      numAstronauts = input.question("Enter the number of astronauts: ")
+     }
+        while (fuelLevel-100*numAstronauts >= 0) {
+          altitude += 50;
+          fuelLevel -= 100*numAstronauts;
+          let output = `The shuttle gained an altitude of ${altitude} km.`;
+          console.log(output);
+          if (altitude >= 2000) {
+            output+= " Orbit achieved!";
+            console.log(output);
+          } else (
+            console.log("Orbit failed. Try again.")
+          )
+        }
+     
+
 
   

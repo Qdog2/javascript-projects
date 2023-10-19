@@ -37,3 +37,21 @@ let tortoiseTwo = {
  for (i=0; i < 8; i++){
     console.log(randomSelection(happiness));
  }
+
+ for (let i = 0; i < 100; i++) {
+    console.log(Math.random());
+ }
+
+
+ function rolld20() {
+    return Math.ceil(Math.random()*20)
+ }
+
+ for (let i = 0; i < 20; i++) {
+    console.log(rolld20())
+ }
+
+for (let i = 0; i < 10: i++) {
+    console.log(Math.round((Math.random()*1000))/10)
+}
+ Math.ceil(Math.random()*100);
