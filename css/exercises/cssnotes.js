@@ -1,0 +1,1 @@
+<tag style="property:value;property:value;property:value;">contents</tag>
