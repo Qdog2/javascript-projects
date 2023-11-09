@@ -53,7 +53,7 @@ window.addEventListener("load", function() {
 
     //Use event delegation for directional buttons
     document.addEventListener("click", function(event) {
-        let bkgWidth = parseInt(window.getComputedStyle(shuttleBackground.getPropertyValue('width')))
+        let bkgWidth = parseInt(window.getComputedStyle(shuttleBackground).getPropertyValue('width'))
         if(event.target.id === "left" && rocketPosX > (bkgWidth / 2 - 40)) {
             rocketPosX -= 10;
             rocket.style.marginLeft = rocketPosX + 'px';
